@@ -9,7 +9,7 @@
 *.swo
 
 # Ignore local nodejs packages
-node_modules/
+node_modules
 
 # Ignore node files
 *.man
@@ -30,3 +30,5 @@ source/assets/css
 github.io
 
 repos
+lerna-debug.log
+package-lock.json
