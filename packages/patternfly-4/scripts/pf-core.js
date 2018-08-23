@@ -32,7 +32,7 @@ fs.remove(reposDir, (errRemove) => {
       // eslint-disable-next-line no-console
       console.log('Created _repos/_tmp dir');
 
-      download('patternfly/patternfly-next', '_repos/_tmp', {clone: true}, function (err) {
+      download('patternfly/patternfly-next', '_repos/_tmp', {clone: false}, function (err) {
         if (err) {
           console.log('Failed to download patternfly-next repo');
         }
